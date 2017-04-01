@@ -2,6 +2,7 @@
 header("Content-type: text/html; charset=utf-8"); 
 session_start();
 
+
 define('ROOT_PATH',  dirname(__FILE__).DIRECTORY_SEPARATOR);
 define('CACHE_PATH', ROOT_PATH.'_cache');
 define('CONFIG_PATH', ROOT_PATH.'config'.DIRECTORY_SEPARATOR);

@@ -28,7 +28,7 @@ class mysql{
             $this->err();
         }       
         //连接数据库
-        if(!mysql_select_db( $name, $this->link )){ 
+        if(!mysql_select_db( $database, $this->link )){ 
             $this->err();
         }        
         mysql_query('set names '.$charset);

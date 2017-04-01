@@ -13,7 +13,7 @@ $config = array(
     
     'dbconfig' =>array(
         'host'      =>      'localhost',
-        'name'      =>      'jmt_friends',
+        'database'      =>      'test',
         'user'      =>      'root',
         'pwd'       =>      '123456',        
         'charset'   =>      'utf8'
